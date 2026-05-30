@@ -1,6 +1,6 @@
-# dx
+# dc digital clock
 my first 
-author - aayush clock
+author - aayush meena
 // Online C compiler to run C program online
 #include <stdio.h>
 #include<time.h>
@@ -13,22 +13,27 @@ hour=min=sec=0;
 while(1)
 {
     system ("clear");
-    printf("%02d:%02d:%02d"hour,min,sec)
+    printf("%02d:%02d:%02d",hour,min,sec);
     
-    fflush(stdout)
+    
+    fflush(stdout);
+    
     sec++;
     if(sec==60)
     {
-  min+=1
-  sec=0
+  min+=1;
+  sec=0;
 
 }
 if (hour=0)
 {
     hour=0;
-    sec=0
-    min=0
+    sec=0;
+    min=0;
 }
-sleep=1
+sleep(1);
 }
-return;0
+return 0;
+}
+return 0;
+}
